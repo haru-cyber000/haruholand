@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>trivia</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <meta charset="UTF-8">
+  <title>HaruhoLAND - Unit Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>HaruhoLAND</header>
+  <nav>
+    <a href="index.html">HOME</a>
+    <a href="portfolio.html">PORTFOLIO</a>
+    <a href="trivia.html">TRIVIA</a>
+  </nav>
+  <div class="container">
+    <!-- Left Sidebar -->
+    <div class="left">
+      <h3>Useful Links</h3>
+      <ul style="list-style:none; padding-left:0">
+        <li><a href="https://www.perplexity.ai" target="_blank">Perplexity</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.deepl.com/en/translator" target="_blank">DeepL</a></li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <h2>Centimeter to Inch Converter</h2>
+      <form onsubmit="convertUnit(); return false;">
+        <label for="cm">Enter length in centimeters:</label><br>
+        <input type="number" id="cm" placeholder="e.g. 170"><br><br>
+        <input type="submit" value="Convert to Inches">
+      </form>
+      <p id="conversion-result" class="result"></p>
+    </div>
+
+    <!-- Right Sidebar -->
+    <div class="right">
+      <h3>Contact Me</h3>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Your message" rows="5"></textarea>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    July 21st, 2025 | <a href="https://www.instagram.com/haru_p00h" target="_blank">My Instagram</a>
+  </footer>
+  <script src="trivia.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
